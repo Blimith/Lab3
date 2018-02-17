@@ -1,5 +1,5 @@
 //Author: Carlos Garcia, Michael Puma
-//CPSC 121 Lab 1
+//CPSC 121 Lab 3
 //2/12/2018
 #include <iostream>
 #include <string> 
