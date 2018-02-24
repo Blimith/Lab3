@@ -16,6 +16,9 @@ void triangleWordUpsideDown(string, bool); // Function for when you ask for the 
 
 int main()
 {
+	int loop = 0;;
+	while(loop = 0)
+	{
 	char loop; //Used to loop back to the start if the user does not wish to close the program.
 	char choice; //Dummy char used for basic user input.
 	char choice2; //Dummy char used for basic user input.
@@ -96,8 +99,10 @@ int main()
 		if (loop == 'N' || loop == 'n')
 		{
 			system("CLS");
-			main(); //Calls back to main function in order to restart the program, if the user desires. 
+			loop = 1; //Calls back to main function in order to restart the program, if the user desires. 
 		}
+	}
+}
 			return 0;
 }
 
@@ -238,7 +243,7 @@ void rectangleLength(int w, int l, bool output) //Creates a length rectangle
 				cout << word.substr(0, word.length() - i) << endl;
 			}
 		}
-	}
+	
 
 
 
